@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ParouIMpar\bin\Debug\netcoreapp2.1\ParouIMpar.deps.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ParouIMpar\bin\Debug\netcoreapp2.1\ParouIMpar.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ParouIMpar\bin\Debug\netcoreapp2.1\ParouIMpar.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ParouIMpar\bin\Debug\netcoreapp2.1\ParouIMpar.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ParouIMpar\bin\Debug\netcoreapp2.1\ParouIMpar.pdb
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ParouIMpar\obj\Debug\netcoreapp2.1\ParouIMpar.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ParouIMpar\obj\Debug\netcoreapp2.1\ParouIMpar.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ParouIMpar\obj\Debug\netcoreapp2.1\ParouIMpar.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ParouIMpar\obj\Debug\netcoreapp2.1\ParouIMpar.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ParouIMpar\obj\Debug\netcoreapp2.1\ParouIMpar.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ParouIMpar\obj\Debug\netcoreapp2.1\ParouIMpar.pdb

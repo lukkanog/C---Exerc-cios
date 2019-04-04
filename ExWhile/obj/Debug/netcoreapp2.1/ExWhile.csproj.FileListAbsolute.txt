@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExWhile\bin\Debug\netcoreapp2.1\ExWhile.deps.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExWhile\bin\Debug\netcoreapp2.1\ExWhile.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExWhile\bin\Debug\netcoreapp2.1\ExWhile.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExWhile\bin\Debug\netcoreapp2.1\ExWhile.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExWhile\bin\Debug\netcoreapp2.1\ExWhile.pdb
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExWhile\obj\Debug\netcoreapp2.1\ExWhile.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExWhile\obj\Debug\netcoreapp2.1\ExWhile.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExWhile\obj\Debug\netcoreapp2.1\ExWhile.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExWhile\obj\Debug\netcoreapp2.1\ExWhile.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExWhile\obj\Debug\netcoreapp2.1\ExWhile.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExWhile\obj\Debug\netcoreapp2.1\ExWhile.pdb

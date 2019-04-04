@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExNomeDoMes\obj\Debug\netcoreapp2.1\ExNomeDoMes.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExNomeDoMes\obj\Debug\netcoreapp2.1\ExNomeDoMes.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExNomeDoMes\obj\Debug\netcoreapp2.1\ExNomeDoMes.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExNomeDoMes\obj\Debug\netcoreapp2.1\ExNomeDoMes.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExNomeDoMes\bin\Debug\netcoreapp2.1\ExNomeDoMes.deps.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExNomeDoMes\bin\Debug\netcoreapp2.1\ExNomeDoMes.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExNomeDoMes\bin\Debug\netcoreapp2.1\ExNomeDoMes.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExNomeDoMes\bin\Debug\netcoreapp2.1\ExNomeDoMes.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExNomeDoMes\bin\Debug\netcoreapp2.1\ExNomeDoMes.pdb
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExNomeDoMes\obj\Debug\netcoreapp2.1\ExNomeDoMes.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExNomeDoMes\obj\Debug\netcoreapp2.1\ExNomeDoMes.pdb

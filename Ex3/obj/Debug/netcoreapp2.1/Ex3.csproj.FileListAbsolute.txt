@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\Aulas C#\Ex3\bin\Debug\netcoreapp2.1\Ex3.deps.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\Ex3\bin\Debug\netcoreapp2.1\Ex3.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\Ex3\bin\Debug\netcoreapp2.1\Ex3.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\Ex3\bin\Debug\netcoreapp2.1\Ex3.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\Ex3\bin\Debug\netcoreapp2.1\Ex3.pdb
+C:\Users\46735197879\Desktop\lucas\Aulas C#\Ex3\obj\Debug\netcoreapp2.1\Ex3.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\Ex3\obj\Debug\netcoreapp2.1\Ex3.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\Ex3\obj\Debug\netcoreapp2.1\Ex3.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\Ex3\obj\Debug\netcoreapp2.1\Ex3.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\Aulas C#\Ex3\obj\Debug\netcoreapp2.1\Ex3.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\Ex3\obj\Debug\netcoreapp2.1\Ex3.pdb

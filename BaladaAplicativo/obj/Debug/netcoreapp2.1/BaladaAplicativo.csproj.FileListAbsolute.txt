@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\Aulas C#\BaladaAplicativo\bin\Debug\netcoreapp2.1\BaladaAplicativo.deps.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\BaladaAplicativo\bin\Debug\netcoreapp2.1\BaladaAplicativo.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\BaladaAplicativo\bin\Debug\netcoreapp2.1\BaladaAplicativo.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\BaladaAplicativo\bin\Debug\netcoreapp2.1\BaladaAplicativo.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\BaladaAplicativo\bin\Debug\netcoreapp2.1\BaladaAplicativo.pdb
+C:\Users\46735197879\Desktop\lucas\Aulas C#\BaladaAplicativo\obj\Debug\netcoreapp2.1\BaladaAplicativo.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\BaladaAplicativo\obj\Debug\netcoreapp2.1\BaladaAplicativo.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\BaladaAplicativo\obj\Debug\netcoreapp2.1\BaladaAplicativo.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\BaladaAplicativo\obj\Debug\netcoreapp2.1\BaladaAplicativo.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\Aulas C#\BaladaAplicativo\obj\Debug\netcoreapp2.1\BaladaAplicativo.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\BaladaAplicativo\obj\Debug\netcoreapp2.1\BaladaAplicativo.pdb

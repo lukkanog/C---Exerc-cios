@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\Aulas C#\mediaAplicativo\obj\Debug\netcoreapp2.1\mediaAplicativo.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\mediaAplicativo\obj\Debug\netcoreapp2.1\mediaAplicativo.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\mediaAplicativo\obj\Debug\netcoreapp2.1\mediaAplicativo.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\mediaAplicativo\obj\Debug\netcoreapp2.1\mediaAplicativo.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\Aulas C#\mediaAplicativo\bin\Debug\netcoreapp2.1\mediaAplicativo.deps.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\mediaAplicativo\bin\Debug\netcoreapp2.1\mediaAplicativo.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\mediaAplicativo\bin\Debug\netcoreapp2.1\mediaAplicativo.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\mediaAplicativo\bin\Debug\netcoreapp2.1\mediaAplicativo.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\mediaAplicativo\bin\Debug\netcoreapp2.1\mediaAplicativo.pdb
+C:\Users\46735197879\Desktop\lucas\Aulas C#\mediaAplicativo\obj\Debug\netcoreapp2.1\mediaAplicativo.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\mediaAplicativo\obj\Debug\netcoreapp2.1\mediaAplicativo.pdb
