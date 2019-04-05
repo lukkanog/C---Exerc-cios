@@ -6,6 +6,7 @@ namespace IdadePesoSexo
     {
         static void Main(string[] args)
         {
+            string sexo;
             int homens = 0;
             int mulheres = 0;
             int somaIdadeHomens = 0;
@@ -13,17 +14,21 @@ namespace IdadePesoSexo
             float somaPesoHomens = 0f;
             float somaPesoMulheres = 0f;
 
-            for (int i=0;i<4;i++)
+            for (int i=0;i<10;i++)
             {
-
-                Console.WriteLine("\nInsira a idade da pessoa:");
+                do
+                {
+                    Console.WriteLine("\nInsira o sexo da pessoa\n(MASCULINO ou FEMININO)");
+                    sexo = Console.ReadLine().ToLower();
+                    if (sexo != ("masculino") && sexo != ("feminino"))
+                    {
+                        Console.WriteLine("Opção inválida");
+                    }
+                }while (!sexo.Equals ("masculino") && !sexo.Equals ("feminino"));
+                Console.WriteLine("Insira a idade da pessoa:");
                 int idade = int.Parse(Console.ReadLine());
                 Console.WriteLine("Insira o peso da pessoa:");
-                float peso = float.Parse(Console.ReadLine());
-                Console.WriteLine("Insira o sexo da pessoa\n(MASCULINO ou FEMININO)");
-                string sexo = Console.ReadLine();
-
-                // idade++;
+                float peso = float.Parse(Console.ReadLine().ToLower());
 
                 if ("masculino".Equals(sexo,StringComparison.CurrentCultureIgnoreCase))
                 {
@@ -40,22 +45,31 @@ namespace IdadePesoSexo
                     Console.WriteLine("Opção inválida");
                 }//end if
             }//end for
-
+            
+            if (homens >0)
+            {
             float mediaIdadeHomens = somaIdadeHomens / homens;
-            float mediaIdadeMulheres = somaIdadeMulheres / mulheres;
-
             float mediaPesoHomens = somaPesoHomens / homens;
-            float mediaPesoMulheres = somaPesoMulheres / mulheres;
-
             Console.WriteLine("===================================");
-            Console.WriteLine("\nA quantidade de homens é: "+ homens);
-            Console.WriteLine("A quantidade de mulheres é: "+ mulheres);
-
-            Console.WriteLine("\nA média de idade masculina é: "+mediaIdadeHomens);
+            Console.WriteLine("A quantidade de homens é: "+ homens);
+            Console.WriteLine("A média de idade masculina é: "+mediaIdadeHomens);
+            Console.WriteLine("A média de peso masculina é: "+ mediaPesoHomens);
+            }else
+            {
+                Console.WriteLine("Nenhum homem foi inscrito");
+            }
+            if (mulheres >0)
+            {
+            float mediaIdadeMulheres = somaIdadeMulheres / mulheres;
+            float mediaPesoMulheres = somaPesoMulheres / mulheres;
+            Console.WriteLine("\nA quantidade de mulheres é: "+ mulheres);
             Console.WriteLine("A média de idade feminina é: "+ mediaIdadeMulheres);
-
-            Console.WriteLine("\nA média de peso masculina é: "+ mediaPesoHomens);
             Console.WriteLine("A média de peso feminina é: "+ mediaPesoMulheres);
-        }
+            }else
+            {
+                Console.WriteLine("Nenhuma mulher foi inscrita");
+            }
+
+        }//end of the world
     }
 }

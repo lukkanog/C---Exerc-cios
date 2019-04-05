@@ -16,7 +16,7 @@ namespace exIdade
 
                 if (idade >=18)
                 {
-                    maiores++;//SE A IDADE FOR MAIOR QUE 18, A INT MAIORES VAI AUMENTANDO, POR ISSO DA A QUANTIDADE CERTA
+                    maiores++;//SE A IDADE FOR MAIOR QUE 18, A INT MAIORES VAI AUMENTANDO, POR ISSO DA A QUANTIDADe
                 }else
                 {
                     menores++;
