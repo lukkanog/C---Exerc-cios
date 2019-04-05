@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\IdadePesoSexo\bin\Debug\netcoreapp2.1\IdadePesoSexo.deps.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\IdadePesoSexo\bin\Debug\netcoreapp2.1\IdadePesoSexo.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\IdadePesoSexo\bin\Debug\netcoreapp2.1\IdadePesoSexo.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\IdadePesoSexo\bin\Debug\netcoreapp2.1\IdadePesoSexo.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\IdadePesoSexo\bin\Debug\netcoreapp2.1\IdadePesoSexo.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\IdadePesoSexo\obj\Debug\netcoreapp2.1\IdadePesoSexo.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\IdadePesoSexo\obj\Debug\netcoreapp2.1\IdadePesoSexo.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\IdadePesoSexo\obj\Debug\netcoreapp2.1\IdadePesoSexo.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\IdadePesoSexo\obj\Debug\netcoreapp2.1\IdadePesoSexo.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\IdadePesoSexo\obj\Debug\netcoreapp2.1\IdadePesoSexo.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\IdadePesoSexo\obj\Debug\netcoreapp2.1\IdadePesoSexo.pdb

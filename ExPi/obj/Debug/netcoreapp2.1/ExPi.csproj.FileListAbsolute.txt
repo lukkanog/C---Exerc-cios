@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExPi\bin\Debug\netcoreapp2.1\ExPi.deps.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExPi\bin\Debug\netcoreapp2.1\ExPi.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExPi\bin\Debug\netcoreapp2.1\ExPi.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExPi\bin\Debug\netcoreapp2.1\ExPi.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExPi\bin\Debug\netcoreapp2.1\ExPi.pdb
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExPi\obj\Debug\netcoreapp2.1\ExPi.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExPi\obj\Debug\netcoreapp2.1\ExPi.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExPi\obj\Debug\netcoreapp2.1\ExPi.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExPi\obj\Debug\netcoreapp2.1\ExPi.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExPi\obj\Debug\netcoreapp2.1\ExPi.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\ExPi\obj\Debug\netcoreapp2.1\ExPi.pdb

@@ -1,0 +1,22 @@
+C:\Users\46735197879\Desktop\lucas\Aulas C#\exIdade\bin\Debug\netcoreapp2.1\exIdade.deps.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\exIdade\bin\Debug\netcoreapp2.1\exIdade.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\exIdade\bin\Debug\netcoreapp2.1\exIdade.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\Aulas C#\exIdade\bin\Debug\netcoreapp2.1\exIdade.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\exIdade\bin\Debug\netcoreapp2.1\exIdade.pdb
+C:\Users\46735197879\Desktop\lucas\Aulas C#\exIdade\obj\Debug\netcoreapp2.1\exIdade.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\exIdade\obj\Debug\netcoreapp2.1\exIdade.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\exIdade\obj\Debug\netcoreapp2.1\exIdade.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\Aulas C#\exIdade\obj\Debug\netcoreapp2.1\exIdade.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\Aulas C#\exIdade\obj\Debug\netcoreapp2.1\exIdade.dll
+C:\Users\46735197879\Desktop\lucas\Aulas C#\exIdade\obj\Debug\netcoreapp2.1\exIdade.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\exIdade\bin\Debug\netcoreapp2.1\exIdade.deps.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\exIdade\bin\Debug\netcoreapp2.1\exIdade.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\exIdade\bin\Debug\netcoreapp2.1\exIdade.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\exIdade\bin\Debug\netcoreapp2.1\exIdade.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\exIdade\bin\Debug\netcoreapp2.1\exIdade.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\exIdade\obj\Debug\netcoreapp2.1\exIdade.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\exIdade\obj\Debug\netcoreapp2.1\exIdade.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\exIdade\obj\Debug\netcoreapp2.1\exIdade.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\exIdade\obj\Debug\netcoreapp2.1\exIdade.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\exIdade\obj\Debug\netcoreapp2.1\exIdade.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\exIdade\obj\Debug\netcoreapp2.1\exIdade.pdb
