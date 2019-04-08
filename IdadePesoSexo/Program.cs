@@ -23,8 +23,9 @@ namespace IdadePesoSexo
                     if (sexo != ("masculino") && sexo != ("feminino"))
                     {
                         Console.WriteLine("Opção inválida");
-                    }
+                    }//end if dentro do for
                 }while (!sexo.Equals ("masculino") && !sexo.Equals ("feminino"));
+
                 Console.WriteLine("Insira a idade da pessoa:");
                 int idade = int.Parse(Console.ReadLine());
                 Console.WriteLine("Insira o peso da pessoa:");
@@ -57,7 +58,7 @@ namespace IdadePesoSexo
             }else
             {
                 Console.WriteLine("Nenhum homem foi inscrito");
-            }
+            }//end if homens diferente de zero
             if (mulheres >0)
             {
             float mediaIdadeMulheres = somaIdadeMulheres / mulheres;
@@ -68,8 +69,7 @@ namespace IdadePesoSexo
             }else
             {
                 Console.WriteLine("Nenhuma mulher foi inscrita");
-            }
-
+            }//end if mulheres diferente de zero
         }//end of the world
     }
 }

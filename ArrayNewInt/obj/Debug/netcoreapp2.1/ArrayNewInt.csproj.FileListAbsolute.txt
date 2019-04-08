@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ArrayNewInt\obj\Debug\netcoreapp2.1\ArrayNewInt.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ArrayNewInt\obj\Debug\netcoreapp2.1\ArrayNewInt.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ArrayNewInt\obj\Debug\netcoreapp2.1\ArrayNewInt.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ArrayNewInt\obj\Debug\netcoreapp2.1\ArrayNewInt.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ArrayNewInt\bin\Debug\netcoreapp2.1\ArrayNewInt.deps.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ArrayNewInt\bin\Debug\netcoreapp2.1\ArrayNewInt.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ArrayNewInt\bin\Debug\netcoreapp2.1\ArrayNewInt.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ArrayNewInt\bin\Debug\netcoreapp2.1\ArrayNewInt.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ArrayNewInt\bin\Debug\netcoreapp2.1\ArrayNewInt.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ArrayNewInt\obj\Debug\netcoreapp2.1\ArrayNewInt.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ArrayNewInt\obj\Debug\netcoreapp2.1\ArrayNewInt.pdb
