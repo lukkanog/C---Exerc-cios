@@ -25,8 +25,6 @@ namespace ExArray
                     Console.WriteLine("\nTotal de Números:"+numeros.Length);        
                     Console.WriteLine("A quantidade de números ímpares é: "+impar);
                     Console.WriteLine("A quantidade de números pares é:"+par);
-
-            
         }
     }
 }
