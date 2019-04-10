@@ -29,13 +29,13 @@ namespace Passagens
                     case 1:
                         if (i < nome.Length)
                         {
-                            Console.WriteLine("Digite o nome do comprador:");
+                            Console.WriteLine("Digite o nome do passageiro:");
                             nome[i] = Console.ReadLine();
                             Console.WriteLine("Digite o n° da passagem:");
                             numeroPassagem[i] = int.Parse(Console.ReadLine());
-                            Console.WriteLine("Digite a data da viagem(dd/mm/aaaa):");
+                            Console.WriteLine("Digite a data da viagem:");
                             data[i] = DateTime.Parse(Console.ReadLine());
-                            Console.WriteLine("Sua passagem foi cadastrada com sucesso!");
+                            Console.WriteLine("\nSua passagem foi cadastrada com sucesso!");
                             i++;
                         }
                         else
@@ -50,16 +50,17 @@ namespace Passagens
                         {
                             for (j=0;j <i;j++)
                             {
+                            Console.WriteLine($"Passagens registradas: {j+1}");
                             Console.WriteLine($"\n-----PASSAGEM {j + 1}------");
-                            Console.WriteLine($"Comprador: {nome[j]}");
+                            Console.WriteLine($"Passageiro: {nome[j]}");
                             Console.WriteLine($"Número da passagem: {numeroPassagem[j]}");
-                            Console.WriteLine($"Data do vôo: {data[j]:dd/MM/yyyy}");
+                            Console.WriteLine($"Data do vôo: {data[j]:dd/MMM/yyyy}");//MM MAIUSCULO porque o mm minúsculo é minuto;MMM escreve por extenso o mês
                             }
                         }
                         else
                         {
                             // i = 9;
-                            Console.WriteLine("\nNenhuma passagem foi registrada.");
+                            Console.WriteLine("\nNenhuma passagem foi registrada ainda.");
                         }//end if
 
                         break;

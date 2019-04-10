@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ContinueBreak\bin\Debug\netcoreapp2.1\ContinueBreak.deps.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ContinueBreak\bin\Debug\netcoreapp2.1\ContinueBreak.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ContinueBreak\bin\Debug\netcoreapp2.1\ContinueBreak.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ContinueBreak\bin\Debug\netcoreapp2.1\ContinueBreak.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ContinueBreak\bin\Debug\netcoreapp2.1\ContinueBreak.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ContinueBreak\obj\Debug\netcoreapp2.1\ContinueBreak.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ContinueBreak\obj\Debug\netcoreapp2.1\ContinueBreak.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ContinueBreak\obj\Debug\netcoreapp2.1\ContinueBreak.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ContinueBreak\obj\Debug\netcoreapp2.1\ContinueBreak.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ContinueBreak\obj\Debug\netcoreapp2.1\ContinueBreak.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\ContinueBreak\obj\Debug\netcoreapp2.1\ContinueBreak.pdb

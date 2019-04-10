@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Matrizes\bin\Debug\netcoreapp2.1\Matrizes.deps.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Matrizes\bin\Debug\netcoreapp2.1\Matrizes.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Matrizes\bin\Debug\netcoreapp2.1\Matrizes.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Matrizes\bin\Debug\netcoreapp2.1\Matrizes.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Matrizes\bin\Debug\netcoreapp2.1\Matrizes.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Matrizes\obj\Debug\netcoreapp2.1\Matrizes.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Matrizes\obj\Debug\netcoreapp2.1\Matrizes.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Matrizes\obj\Debug\netcoreapp2.1\Matrizes.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Matrizes\obj\Debug\netcoreapp2.1\Matrizes.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Matrizes\obj\Debug\netcoreapp2.1\Matrizes.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Matrizes\obj\Debug\netcoreapp2.1\Matrizes.pdb
