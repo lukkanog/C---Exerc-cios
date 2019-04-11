@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MediaArray\obj\Debug\netcoreapp2.1\MediaArray.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MediaArray\obj\Debug\netcoreapp2.1\MediaArray.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MediaArray\obj\Debug\netcoreapp2.1\MediaArray.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MediaArray\obj\Debug\netcoreapp2.1\MediaArray.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MediaArray\bin\Debug\netcoreapp2.1\MediaArray.deps.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MediaArray\bin\Debug\netcoreapp2.1\MediaArray.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MediaArray\bin\Debug\netcoreapp2.1\MediaArray.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MediaArray\bin\Debug\netcoreapp2.1\MediaArray.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MediaArray\bin\Debug\netcoreapp2.1\MediaArray.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MediaArray\obj\Debug\netcoreapp2.1\MediaArray.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MediaArray\obj\Debug\netcoreapp2.1\MediaArray.pdb
