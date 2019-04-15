@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\GeradorAbobrinha\obj\Debug\netcoreapp2.1\GeradorAbobrinha.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\GeradorAbobrinha\obj\Debug\netcoreapp2.1\GeradorAbobrinha.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\GeradorAbobrinha\obj\Debug\netcoreapp2.1\GeradorAbobrinha.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\GeradorAbobrinha\obj\Debug\netcoreapp2.1\GeradorAbobrinha.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\GeradorAbobrinha\bin\Debug\netcoreapp2.1\GeradorAbobrinha.deps.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\GeradorAbobrinha\bin\Debug\netcoreapp2.1\GeradorAbobrinha.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\GeradorAbobrinha\bin\Debug\netcoreapp2.1\GeradorAbobrinha.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\GeradorAbobrinha\bin\Debug\netcoreapp2.1\GeradorAbobrinha.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\GeradorAbobrinha\bin\Debug\netcoreapp2.1\GeradorAbobrinha.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\GeradorAbobrinha\obj\Debug\netcoreapp2.1\GeradorAbobrinha.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\GeradorAbobrinha\obj\Debug\netcoreapp2.1\GeradorAbobrinha.pdb

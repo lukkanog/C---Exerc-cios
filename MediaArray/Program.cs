@@ -12,8 +12,8 @@ namespace MediaArray
             {
                 string[] nome = new string[3];
                 string[] sobrenome = new string[3];
-                int[] nota1 = new int [3];
-                int[] nota2 = new int [3];
+                float[] nota1 = new float [3];
+                float[] nota2 = new float [3];
                 float[] media = new float [3];
                 string[] resultado = new string[3];
                 int quantAprovados = 0;

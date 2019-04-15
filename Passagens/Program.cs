@@ -7,9 +7,9 @@ namespace Passagens
         static void Main(string[] args)
         {
 
-            string[] nome = new string[2];
-            int[] numeroPassagem = new int[5];
-            DateTime[] data = new DateTime[5];  
+            string[] nome = new string[10];
+            int[] numeroPassagem = new int[10];
+            DateTime[] data = new DateTime[10];  
             int resposta;
             int i=0;
             int j=0;//contador da exibição

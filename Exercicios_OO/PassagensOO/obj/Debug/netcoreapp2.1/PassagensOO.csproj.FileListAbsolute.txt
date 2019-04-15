@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\PassagensOO\obj\Debug\netcoreapp2.1\PassagensOO.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\PassagensOO\obj\Debug\netcoreapp2.1\PassagensOO.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\PassagensOO\obj\Debug\netcoreapp2.1\PassagensOO.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\PassagensOO\obj\Debug\netcoreapp2.1\PassagensOO.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\PassagensOO\bin\Debug\netcoreapp2.1\PassagensOO.deps.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\PassagensOO\bin\Debug\netcoreapp2.1\PassagensOO.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\PassagensOO\bin\Debug\netcoreapp2.1\PassagensOO.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\PassagensOO\bin\Debug\netcoreapp2.1\PassagensOO.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\PassagensOO\bin\Debug\netcoreapp2.1\PassagensOO.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\PassagensOO\obj\Debug\netcoreapp2.1\PassagensOO.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\PassagensOO\obj\Debug\netcoreapp2.1\PassagensOO.pdb
