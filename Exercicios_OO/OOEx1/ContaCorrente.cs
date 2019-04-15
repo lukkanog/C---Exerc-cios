@@ -6,6 +6,7 @@ namespace OOEx1
         public int agencia;//atributo
         public int numeroConta;//atributo
         public double saldo{get;private set;}//atributo
+        
         public void Depositar(double valor)
         {
             saldo+=valor;
