@@ -15,7 +15,8 @@ namespace SENAIzinho
             do
             {
                 Console.ForegroundColor = ConsoleColor.Magenta;
-                Console.WriteLine("\n-----------SENAIZINHO----------");
+                Console.WriteLine("\n------------SENAIZINHO-----------");
+                Console.ResetColor();
                 Console.WriteLine("||   1 - Cadastrar Aluno       ||");
                 Console.WriteLine("||   2 - Cadastrar Sala        ||");
                 Console.WriteLine("||   3 - Alocar Aluno          ||"); 
@@ -23,8 +24,7 @@ namespace SENAIzinho
                 Console.WriteLine("||   5 - Verificar Salas       ||");
                 Console.WriteLine("||   6 - Verificar Alunos      ||");
                 Console.WriteLine("||   0 - Sair                  ||"); 
-                Console.WriteLine("--------------------------------");
-                Console.ResetColor();
+                Console.WriteLine("---------------------------------");
                 Console.Write("Qual a opção desejada? ");
                 resposta = int.Parse(Console.ReadLine());
 
@@ -46,9 +46,9 @@ namespace SENAIzinho
                             alunosCadastrados ++;
 
                             Console.ForegroundColor = ConsoleColor.Green;
-                            Console.WriteLine("Aluno registrado com sucesso");
+                            Console.WriteLine("\nAluno registrado com sucesso");
                             Console.ResetColor();
-                            Console.WriteLine("Aperte ENTER para retorna ao menu principal");
+                            Console.WriteLine("Aperte ENTER para retornar ao menu principal");
                             Console.ReadLine();
                         }else
                         {
@@ -75,17 +75,96 @@ namespace SENAIzinho
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Sala cadastrada com sucesso");
                         Console.ResetColor();
-                        Console.WriteLine("Aperte ENTER para retorna ao menu principal");
+                        Console.WriteLine("Aperte ENTER para retornar ao menu principal");
                         Console.ReadLine();
                         break;
                     case 3:
-                        Console.WriteLine("\nAluno a ser alocado:");
-                        Console.ReadLine();
-                        Console.WriteLine("Sala que o aluno entrará:");
-                        int.Parse(Console.ReadLine());
+                        if (alunosCadastrados == 0)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.WriteLine("Nenhum aluno cadastrado");
+                            Console.ResetColor();
+                            Console.WriteLine("Aperte ENTER para retornar ao menu principal");
+                            Console.ReadLine();
+                            continue;// o continue faz com que o Loop (nesse caso o DoWhile) volta para o começo
+                        }else if (salasCadastradas == 0)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.WriteLine("Não é possível realizar essa ação pois nenhuma sala foi cadastrada");
+                            Console.ResetColor();
+                            Console.WriteLine("Aperte ENTER para retornar ao menu principal");
+                            Console.ReadLine();
+                            continue;
+                        }else
+                        {
+                            Console.WriteLine("Digite o nome do aluno a ser alocado:");
+                            string nomeAluno = Console.ReadLine();
+                            Aluno alunoRecuperado = null;
+                            foreach (var item in alunos)
+                            {
+                                if (item != null && nomeAluno.Equals(item.nome))
+                                {
+                                    alunoRecuperado = item;
+                                    break;//ACHOU O NOME, ENTAO NAO VAI PROCURAR MAIS TLGD PQ O SISTEMA JA ENCONTROU O ALUNO Q A PESSOA DIGITOU
+                                }
+                                if (alunoRecuperado == null)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine($"Aluno(a) {alunoRecuperado} não encontrado(a)  no sistema");
+                                    Console.ResetColor();
+                                    Console.WriteLine("Aperte ENTER para retornar ao menu principal");
+                                    Console.ReadLine();
+                                    continue;
+                                }
+                            }//end foreach
+                            Console.Write("Digite a sala que aluno entrará: ");
+                            int numeroDaSala = int.Parse(Console.ReadLine());
+                            Sala salaRecuperada = null;
+                            foreach (var item in salas)
+                            {
+                                if (item != null && numeroDaSala == item.numeroSala)
+                                {
+                                    salaRecuperada = item;
+                                    break;
+                                }
+                                if (salaRecuperada == null)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine($"\nSala {salaRecuperada} não encontrada  no sistema");
+                                    Console.ResetColor();
+                                    Console.WriteLine("Aperte ENTER para retornar ao menu principal");
+                                    Console.ReadLine();
+                                    continue;
+                                }
+                            }//end foreach
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine(salaRecuperada.Transferir(alunoRecuperado.nome));
+                            Console.ResetColor();
+                            Console.WriteLine("Aperte ENTER para retornar ao menu principal");
+                            Console.ReadLine();
+                        }
                         break;
                     case 4:
-                        Console.WriteLine("\nAluno a ser removido:");
+                        if (alunosCadastrados == 0)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.WriteLine("Não é possível realizar essa ação pois ainda não há alunos cadastrados no sistema");
+                            Console.ResetColor();
+                            Console.WriteLine("Aperte ENTER para retornar ao menu principal");
+                            Console.ReadLine();
+                            continue;
+                        }else
+                        {
+                            Console.WriteLine("Digite o nome do aluno que será removido da escola:");
+                            string nomeAlunoRemovido = Console.ReadLine();
+                            Aluno alunoRemovido;
+                            if (nomeAlunoRemovido != null)
+                            {
+
+                            }
+                            Sala salaRemover = null;
+                            Console.WriteLine(salaRemover.RemoverAluno(nomeAlunoRemovido));
+                        }
                         break;
                     case 5:
                         foreach (var classe in salas)
@@ -94,8 +173,9 @@ namespace SENAIzinho
                             {
                                 Console.WriteLine("----------------------------");
                                 Console.WriteLine($"Sala: {classe.getNumeroSala()}");
-                                Console.WriteLine($"Vagas disponíveis atualmente: {classe.quantAtual}");
                                 Console.WriteLine($"Capacidade máxima de alunos: {classe.getCapacidade()}");
+                                Console.WriteLine($"Vagas disponíveis atualmente: {classe.quantAtual}");
+                                Console.WriteLine($"Alunos: {classe.ExibirAlunos()}");
                                 Console.WriteLine("----------------------------");
                             }else
                             {
@@ -104,7 +184,7 @@ namespace SENAIzinho
                                 Console.ResetColor();
                             }//end if
                         }//end foreach
-                        Console.WriteLine("Aperte ENTER para retorna ao menu principal");
+                        Console.WriteLine("Aperte ENTER para retornar ao menu principal");
                         Console.ReadLine();
                         break;
                     case 6:
@@ -123,9 +203,10 @@ namespace SENAIzinho
                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                 Console.WriteLine("Nenhum aluno foi cadastrado ainda");
                                 Console.ResetColor();
+                                break;
                             }//end if
                         }//end foreach
-                        Console.WriteLine("Aperte ENTER para retorna ao menu principal");
+                        Console.WriteLine("Aperte ENTER para retornar ao menu principal");
                         Console.ReadLine();
                         break;
                     case 0:

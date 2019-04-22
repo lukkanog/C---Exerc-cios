@@ -26,12 +26,35 @@ namespace SENAIzinho {
             return this.quantAtual;
         }
 
-        public void Remover(string alunoRemovido, Sala sala){
-            sala.quantAtual--;
+        public string Transferir(string nomeAluno){
+            quantAtual--;
+            if (quantAtual >= 0 )
+            {
+                alunos[quantAtual] = nomeAluno;
+                return $"Aluno {nomeAluno} alocado com sucesso!";
+            }else
+            {
+                quantAtual = 0;
+                return $"A capacidade da sala {numeroSala} foi excedida";
+            }
         }
-        public void Transferir(Sala salaAntiga, Sala salaNova){
-            salaAntiga.quantAtual++;
-            salaNova.quantAtual--;
+        public string ExibirAlunos(){
+            string nomeAlunos = "";
+            foreach (var item in alunos)
+            {
+                if (item != null)
+                {
+                    nomeAlunos += item + " ";
+                }
+            }
+            return nomeAlunos;
+        }
+
+        public string RemoverAluno(string nomeAlunoRemovido)
+        {
+            quantAtual ++;
+            alunos[quantAtual] = null;
+            return $"O aluno {nomeAlunoRemovido} foi removido com sucesso!";
         }
     }
 }
