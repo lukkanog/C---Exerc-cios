@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\bin\Debug\netcoreapp2.1\DesafioPizzaria.deps.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\bin\Debug\netcoreapp2.1\DesafioPizzaria.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\bin\Debug\netcoreapp2.1\DesafioPizzaria.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\bin\Debug\netcoreapp2.1\DesafioPizzaria.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\bin\Debug\netcoreapp2.1\DesafioPizzaria.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\obj\Debug\netcoreapp2.1\DesafioPizzaria.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\obj\Debug\netcoreapp2.1\DesafioPizzaria.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\obj\Debug\netcoreapp2.1\DesafioPizzaria.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\obj\Debug\netcoreapp2.1\DesafioPizzaria.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\obj\Debug\netcoreapp2.1\DesafioPizzaria.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\obj\Debug\netcoreapp2.1\DesafioPizzaria.pdb

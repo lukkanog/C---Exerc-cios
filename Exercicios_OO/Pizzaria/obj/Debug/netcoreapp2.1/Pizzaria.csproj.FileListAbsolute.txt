@@ -1,4 +1,0 @@
-C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\obj\Debug\netcoreapp2.1\Pizzaria.csprojAssemblyReference.cache
-C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\obj\Debug\netcoreapp2.1\Pizzaria.csproj.CoreCompileInputs.cache
-C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\obj\Debug\netcoreapp2.1\Pizzaria.AssemblyInfoInputs.cache
-C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\Pizzaria\obj\Debug\netcoreapp2.1\Pizzaria.AssemblyInfo.cs
