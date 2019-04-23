@@ -20,12 +20,9 @@ namespace Pizzaria
                 switch (escolha)
                 {
                     case 1:
-                    //Cadastro do usuário
                          Usuario.Inserir();
-                    // Usuario.Listar();
-                    break;
+                        break;
                     case 2:
-                    // Efetuar login
                         Usuario.EfetuarLogin();
 
                         int escolha2;
@@ -57,9 +54,8 @@ namespace Pizzaria
                                     break;
                             }//end switch menu de funcionarios
                         } while (escolha2 != 0);
-                    break;
+                        break;
                     case 3:
-                    // Listar Usuarios
                         Usuario.Listar();
                         break;
                     case 9:

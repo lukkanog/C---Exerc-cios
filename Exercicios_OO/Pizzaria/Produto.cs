@@ -13,6 +13,15 @@ namespace Pizzaria
         public string Categoria { get; set; }
         public DateTime DataCriacao { get; set; }
 
+        // public  Produto(string nome, string categoria, string descricao, float valor)   // MÉTODO CONSTRUTOR - MÉTODO CONSTRUTOR - MÉTODO CONSTRUTOR//
+        // {
+        //     this.Nome = nome;
+        //     this.Categoria = categoria;
+        //     this.Descricao = descricao;
+        //     this.Valor = valor;
+        //     this.Id = contador+1;
+        //     this.DataCriacao = DateTime.Now;
+        // }
         public static void CadastrarProduto()
         {
             Console.WriteLine("Nome do produto:");
@@ -21,9 +30,11 @@ namespace Pizzaria
             string categoria = Console.ReadLine();
             Console.WriteLine("Descrição do produto:");
             string descricao = Console.ReadLine();
-            Console.WriteLine("Valor do produto (em R$):");
+            Console.Write("Valor do produto: R$");
             float valor = float.Parse(Console.ReadLine());
 
+            // Produto p = new Produto (nome, categoria, descricao, valor);
+            // arrayDeProduto[contador] = p;
             arrayDeProduto[contador] = new Produto();
             arrayDeProduto[contador].Nome = nome;
             arrayDeProduto[contador].Categoria = categoria;
@@ -49,7 +60,7 @@ namespace Pizzaria
                     Console.WriteLine($"Nome do produto: {item.Nome}");
                     Console.WriteLine($"Categoria: {item.Categoria}");
                     Console.WriteLine($"Descrição: {item.Descricao}");
-                    Console.WriteLine($"Preço: {item.Valor}");
+                    Console.WriteLine($"Preço: R${item.Valor}");
                     Console.WriteLine($"Data de criação: {item.DataCriacao}");
                     Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
                     continue;
@@ -80,7 +91,7 @@ namespace Pizzaria
                             Console.WriteLine($"Nome do produto: {item.Nome}");
                             Console.WriteLine($"Categoria: {item.Categoria}");
                             Console.WriteLine($"Descrição: {item.Descricao}");
-                            Console.WriteLine($"Preço: {item.Valor}");
+                            Console.WriteLine($"Preço: R${item.Valor}");
                             Console.WriteLine($"Data de criação:{item.DataCriacao}\n");
                         }else
                         {
