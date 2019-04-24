@@ -5,7 +5,7 @@ namespace SENAIzinho
     public class Aluno
     {
         public string nome;
-        public DateTime dataDeNascimento;
+        public DateTime dataNascimento;
         public string curso;
         public int numeroSala;
 
@@ -21,12 +21,12 @@ namespace SENAIzinho
 
         public void setDataDeNascimento(DateTime dataDeNascimento)
         {
-            this.dataDeNascimento = dataDeNascimento;
+            this.dataNascimento = dataDeNascimento;
         }
 
         public DateTime getDataDeNascimento() 
         {
-            return this.dataDeNascimento;
+            return this.dataNascimento;
         }
 
         public void setCurso(string curso)
