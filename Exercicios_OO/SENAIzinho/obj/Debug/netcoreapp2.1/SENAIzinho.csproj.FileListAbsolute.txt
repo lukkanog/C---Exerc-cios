@@ -1,11 +1,11 @@
-C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\obj\Debug\netcoreapp2.1\SENAIzinho.csprojAssemblyReference.cache
-C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\obj\Debug\netcoreapp2.1\SENAIzinho.csproj.CoreCompileInputs.cache
-C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\obj\Debug\netcoreapp2.1\SENAIzinho.AssemblyInfoInputs.cache
-C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\obj\Debug\netcoreapp2.1\SENAIzinho.AssemblyInfo.cs
 C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\bin\Debug\netcoreapp2.1\SENAIzinho.deps.json
 C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\bin\Debug\netcoreapp2.1\SENAIzinho.runtimeconfig.json
 C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\bin\Debug\netcoreapp2.1\SENAIzinho.runtimeconfig.dev.json
 C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\bin\Debug\netcoreapp2.1\SENAIzinho.dll
 C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\bin\Debug\netcoreapp2.1\SENAIzinho.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\obj\Debug\netcoreapp2.1\SENAIzinho.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\obj\Debug\netcoreapp2.1\SENAIzinho.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\obj\Debug\netcoreapp2.1\SENAIzinho.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\obj\Debug\netcoreapp2.1\SENAIzinho.AssemblyInfo.cs
 C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\obj\Debug\netcoreapp2.1\SENAIzinho.dll
 C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\Exercicios_OO\SENAIzinho\obj\Debug\netcoreapp2.1\SENAIzinho.pdb

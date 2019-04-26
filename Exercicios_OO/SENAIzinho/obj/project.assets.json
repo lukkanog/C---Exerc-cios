@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\46735197879\\Desktop\\lucas\\C---Exerc-cios\\Exercicios_OO\\SENAIzinho\\SENAIzinho.csproj",
+      "projectUniqueName": "c:\\Users\\46735197879\\Desktop\\lucas\\C---Exerc-cios\\Exercicios_OO\\SENAIzinho\\SENAIzinho.csproj",
       "projectName": "SENAIzinho",
-      "projectPath": "C:\\Users\\46735197879\\Desktop\\lucas\\C---Exerc-cios\\Exercicios_OO\\SENAIzinho\\SENAIzinho.csproj",
+      "projectPath": "c:\\Users\\46735197879\\Desktop\\lucas\\C---Exerc-cios\\Exercicios_OO\\SENAIzinho\\SENAIzinho.csproj",
       "packagesPath": "C:\\Users\\46735197879\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\46735197879\\Desktop\\lucas\\C---Exerc-cios\\Exercicios_OO\\SENAIzinho\\obj\\",
+      "outputPath": "c:\\Users\\46735197879\\Desktop\\lucas\\C---Exerc-cios\\Exercicios_OO\\SENAIzinho\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

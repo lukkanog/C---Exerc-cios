@@ -1,52 +1,26 @@
 using System;
-
 namespace SENAIzinho
 {
     public class Aluno
     {
-        public string nome;
-        public DateTime dataNascimento;
-        public string curso;
-        public int numeroSala;
+        public string Nome {get; set;}
+        public DateTime DataNascimento {get; set;}
+        public string Curso {get; set;}
+        public int NumeroSala {get; set;}
+        
+        /* Construtor padrão */
+        //public Aluno(){}
 
-       public void setNome(string nome)
-        {
-            this.nome = nome;
+        /* Exemplo de construtor com restrição (parâmetro) */ 
+        public Aluno(string nome) {
+            this.Nome = nome;
         }
+        
+        /* Exemplo de construtor alternativo */ 
+        // public Aluno(string nome, DateTime dataNascimento) {
 
-        public string getNome()
-        {
-            return this.nome;
-        }
-
-        public void setDataDeNascimento(DateTime dataDeNascimento)
-        {
-            this.dataNascimento = dataDeNascimento;
-        }
-
-        public DateTime getDataDeNascimento() 
-        {
-            return this.dataNascimento;
-        }
-
-        public void setCurso(string curso)
-        {
-            this.curso = curso;
-        }
-        public string getCurso()
-        {
-            return this.curso;
-        }
-
-        public void setSala(int numeroSala)
-        {
-            this.numeroSala = numeroSala;
-        }
-        public int getSala()
-        {
-            return this.numeroSala;
-        }
-
-
+        // }
     }
+
+    
 }
