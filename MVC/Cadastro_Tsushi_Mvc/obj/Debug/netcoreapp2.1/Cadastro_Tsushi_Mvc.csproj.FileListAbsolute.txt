@@ -1,0 +1,11 @@
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MVC\Cadastro_Tsushi_Mvc\bin\Debug\netcoreapp2.1\Cadastro_Tsushi_Mvc.deps.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MVC\Cadastro_Tsushi_Mvc\bin\Debug\netcoreapp2.1\Cadastro_Tsushi_Mvc.runtimeconfig.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MVC\Cadastro_Tsushi_Mvc\bin\Debug\netcoreapp2.1\Cadastro_Tsushi_Mvc.runtimeconfig.dev.json
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MVC\Cadastro_Tsushi_Mvc\bin\Debug\netcoreapp2.1\Cadastro_Tsushi_Mvc.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MVC\Cadastro_Tsushi_Mvc\bin\Debug\netcoreapp2.1\Cadastro_Tsushi_Mvc.pdb
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MVC\Cadastro_Tsushi_Mvc\obj\Debug\netcoreapp2.1\Cadastro_Tsushi_Mvc.csprojAssemblyReference.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MVC\Cadastro_Tsushi_Mvc\obj\Debug\netcoreapp2.1\Cadastro_Tsushi_Mvc.csproj.CoreCompileInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MVC\Cadastro_Tsushi_Mvc\obj\Debug\netcoreapp2.1\Cadastro_Tsushi_Mvc.AssemblyInfoInputs.cache
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MVC\Cadastro_Tsushi_Mvc\obj\Debug\netcoreapp2.1\Cadastro_Tsushi_Mvc.AssemblyInfo.cs
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MVC\Cadastro_Tsushi_Mvc\obj\Debug\netcoreapp2.1\Cadastro_Tsushi_Mvc.dll
+C:\Users\46735197879\Desktop\lucas\C---Exerc-cios\MVC\Cadastro_Tsushi_Mvc\obj\Debug\netcoreapp2.1\Cadastro_Tsushi_Mvc.pdb

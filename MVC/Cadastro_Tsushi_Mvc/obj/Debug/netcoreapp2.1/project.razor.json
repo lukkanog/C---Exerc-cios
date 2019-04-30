@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\46735197879\\Desktop\\lucas\\C---Exerc-cios\\MVC\\Cadastro_Tsushi_Mvc\\Cadastro_Tsushi_Mvc.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
