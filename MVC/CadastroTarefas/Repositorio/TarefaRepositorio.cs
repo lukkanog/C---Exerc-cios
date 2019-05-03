@@ -24,24 +24,29 @@ namespace CadastroTarefas.Repositorio
 
             foreach (TarefaViewModel item in listaDeTarefas)
             {       
-                    Console.WriteLine("\n~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                    Console.WriteLine("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                     Console.WriteLine($"ID: {item.Id}");
                     Console.WriteLine($"Tarefa: {item.Nome}");
                     Console.WriteLine($"Descrição: {item.Descricao}");
                     Console.WriteLine($"Status: {item.Tipo}");
                     Console.WriteLine($"Criado em: {item.DataCriacao}");
                     Console.WriteLine($"ID do usuário que criou a tarefa: {item.IdUsuario}");
-                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~");
+                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                     // return item;
             }
                     // return null;
         }//Listar()
 
     
-        public  void Remover(int id)
+        public void Remover(int id)
         {   
-                    
-            listaDeTarefas.RemoveAt(id - 1);
+            if (id <= 0 || id >listaDeTarefas.Count)
+            {
+                Console.WriteLine("\nTarefa não encontrada");
+            }  else{
+                listaDeTarefas.RemoveAt(id - 1);
+                Console.WriteLine($"\nA tarefa {id} foi removida com sucesso");
+            }   
             
         }
     }

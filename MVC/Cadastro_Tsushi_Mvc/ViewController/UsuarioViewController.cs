@@ -66,9 +66,9 @@ namespace Cadastro_Tsushi_Mvc.ViewController
             }
             foreach (var item in listaDeUsuarios)
             {
-                Console.WriteLine("\n===========================");
+                Console.WriteLine("\n====================================");
                 Console.WriteLine($"ID: {item.Id}\nNome : {item.Nome}\nEmail: {item.Email}\nCadastro feito em: {item.DataCriacao}");
-                Console.WriteLine("===========================");
+                Console.WriteLine("======================================");
             }
         }
 
