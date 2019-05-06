@@ -51,7 +51,7 @@ namespace Cadastro_Tsushi_Mvc.Repositorio
                 produtoViewModel.Nome = dadosDeCadaProduto[1];
                 produtoViewModel.Categoria = dadosDeCadaProduto[2];
                 produtoViewModel.Descricao = dadosDeCadaProduto[3];
-                produtoViewModel.Preco = int.Parse(dadosDeCadaProduto[4]);
+                produtoViewModel.Preco = float.Parse(dadosDeCadaProduto[4]);
                 produtoViewModel.DataCriacao = DateTime.Parse(dadosDeCadaProduto[5]);
                 listaDeProdutos.Add(produtoViewModel);
             }

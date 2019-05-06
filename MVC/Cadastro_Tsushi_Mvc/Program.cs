@@ -46,7 +46,7 @@ namespace Cadastro_Tsushi_Mvc
                                     case 0:
                                         break;
                                     default:
-                                        MensagemUtil.MostrarMensagem("Opção inválida", MensagemEnum.SUCESSO);
+                                        MensagemUtil.MostrarMensagem("Opção inválida", MensagemEnum.ALERTA);
                                         break;
                                 }
                             } while (opcaoLogado != 0);

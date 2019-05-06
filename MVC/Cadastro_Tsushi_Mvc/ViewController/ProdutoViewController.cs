@@ -13,7 +13,7 @@ namespace Cadastro_Tsushi_Mvc.ViewController
         public static void CadastrarProduto()
         {
             string nomeProduto, categoriaProduto, descricaoProduto;
-            float preco;
+            float preco = 0f;
 
             do
             {
@@ -49,11 +49,11 @@ namespace Cadastro_Tsushi_Mvc.ViewController
             {
                 Console.Write("Informe o preço desse produto:\nR$");
                 preco = float.Parse(Console.ReadLine());
-                if (preco <= 0)
+                if (preco <= 0f)
                 {
                     MensagemUtil.MostrarMensagem("O produto deve ter um valor definido", MensagemEnum.ALERTA);
                 }
-            } while (preco <= 0);
+            } while (preco <= 0f);
 
             ProdutoViewModel produtoViewModel = new ProdutoViewModel();
             produtoViewModel.Nome = nomeProduto;
@@ -74,7 +74,7 @@ namespace Cadastro_Tsushi_Mvc.ViewController
             {
                 MensagemUtil.MostrarMensagem("Ainda não há produtos cadastrados", MensagemEnum.ALERTA);
             }
-            foreach (var item in listaDeProdutos)
+            foreach (ProdutoViewModel item in listaDeProdutos)
             {
                 if (item != null)
                 {   
