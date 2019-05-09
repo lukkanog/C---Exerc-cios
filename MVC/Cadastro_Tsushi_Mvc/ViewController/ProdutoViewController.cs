@@ -10,7 +10,7 @@ namespace Cadastro_Tsushi_Mvc.ViewController
     public class ProdutoViewController
     {
         static ProdutoRepositorio produtoRepositorio = new ProdutoRepositorio();
-        public static void CadastrarProduto()
+        public static void CadastrarProduto()   
         {
             string nomeProduto, categoriaProduto, descricaoProduto;
             float preco = 0f;

@@ -6,16 +6,17 @@ namespace CadastroTarefas.Utils
     {
         public static void MenuDeslogado()
         {
-            Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("============================");
+            Console.BackgroundColor = ConsoleColor.Magenta;
+            Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("|        TO DO LIST        |");
+            Console.ResetColor();
             Console.WriteLine("|     -----------------    |");
             Console.WriteLine("|   1 - Cadastre - se      |");
             Console.WriteLine("|   2 - Login              |");
             Console.WriteLine("|   0 - Sair               |");
             Console.WriteLine("|                          |");
             Console.WriteLine("============================");
-            Console.ResetColor();
             Console.Write("Qual a opção desejada? ");
         }
     
@@ -31,7 +32,10 @@ namespace CadastroTarefas.Utils
         public static void MenuLogado()
         {
             Console.WriteLine("==================================");
+            Console.BackgroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.WriteLine("|           TO DO LIST           |");
+            Console.ResetColor();
             Console.WriteLine("|        -----------------       |");
             Console.WriteLine("|  1 - Cadastrar nova tarefa     |");
             Console.WriteLine("|  2 - Ver Tarefas               |");
@@ -39,7 +43,7 @@ namespace CadastroTarefas.Utils
             Console.WriteLine("|  0 - Voltar ao menu de Login   |");
             Console.WriteLine("|                                |");
             Console.WriteLine("==================================");
-            Console.Write("Qual a opção desejada?");
+            Console.Write("Qual a opção desejada? ");
         }
     
         public static void MenuTipoTarefa()

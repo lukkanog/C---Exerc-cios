@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using CadastroTarefas.Repositorio;
 using CadastroTarefas.Utils;
 using CadastroTarefas.ViewModel;
@@ -66,17 +67,29 @@ namespace CadastroTarefas.ViewController
            Console.WriteLine("\nTarefa cadastrada com sucesso!\n");
         }//CadastrarTarefa()
     
-        public static void ListarTarefa()
+        public static void ListarTarefa(int idUsuario)
         {
-            TarefaRepositorio.Listar();
-            Console.WriteLine("Aperte ENTER para voltar ao menu");
+            List<TarefaViewModel> listaDeTarefas = tarefaRepositorio.ListarTarefas();
+            if (listaDeTarefas.Count == 0)
+            {
+                Console.WriteLine("Não há tarefas registradas no programa");
+            }
+            foreach (TarefaViewModel item in listaDeTarefas)
+            {
+                if (item != null && item.IdUsuario.Equals(idUsuario))
+                {
+                Console.WriteLine("\n===============================");
+                Console.WriteLine($"ID: {item.Id}\nTarefa: {item.Nome}\nDescrição: {item.Descricao}\nStatus: {item.Tipo}\nCriado em :{item.DataCriacao}\nUsuário: {item.IdUsuario}");
+                Console.WriteLine("===============================");
+                }
+            }
+            Console.WriteLine("\nAperte ENTER para voltar ao menu");
             Console.ReadLine();
         }
     
         public static void RemoverTarefa()
         {
-          int id;
-
+            int id;
             Console.Write("Digite o ID da tarefa a ser removida: ");
             id = int.Parse(Console.ReadLine());
             tarefaRepositorio.Remover(id); 

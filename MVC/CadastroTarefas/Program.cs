@@ -38,16 +38,10 @@ namespace CadastroTarefas
                                 switch (escolhaLogado)
                                 {
                                     case 1:
-                                        if (usuarioTentandoLogar.TipoUsuario.Equals("USUÁRIO"))
-                                        {
-                                            Console.WriteLine("\nEssa tarefa só pode ser executada por administradores");
-                                        } else 
-                                        {
-                                            TarefaViewController.CadastrarTarefa(usuarioTentandoLogar);
-                                        }
+                                        TarefaViewController.CadastrarTarefa(usuarioTentandoLogar);
                                         break;
                                     case 2:
-                                        TarefaViewController.ListarTarefa();
+                                        TarefaViewController.ListarTarefa(usuarioTentandoLogar.Id);
                                         // usuarioTentandoLogar.Id = 
                                         break;
                                     case 3:

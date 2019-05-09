@@ -1,53 +1,80 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using CadastroTarefas.ViewModel;
 
 namespace CadastroTarefas.Repositorio
 {
     public class TarefaRepositorio
     {
-        public static List<TarefaViewModel> listaDeTarefas = new List<TarefaViewModel>();
         public TarefaViewModel NovaTarefa(TarefaViewModel tarefa)
         {
-            tarefa.Id = listaDeTarefas.Count +1;
+            List<TarefaViewModel> listaDeTarefas = ListarTarefas();
+            int contador = 0;
+
+            if (listaDeTarefas != null)
+            {
+                contador = listaDeTarefas.Count;
+                tarefa.Id = listaDeTarefas.Count +1;
+            }
+
             tarefa.DataCriacao = DateTime.Now;
-            listaDeTarefas.Add(tarefa);
+
+            StreamWriter sw = new StreamWriter("tarefas.csv",true);
+            sw.WriteLine($"{tarefa.Id};{tarefa.Nome};{tarefa.Descricao};{tarefa.Tipo};{tarefa.DataCriacao};{tarefa.IdUsuario}");
+            sw.Close();
+
             return tarefa;
         }
     
-        public static void Listar()
+        public  List<TarefaViewModel> ListarTarefas()
         {
-            if (listaDeTarefas.Count == 0)
+            List<TarefaViewModel> listaDeTarefas = new List<TarefaViewModel>();
+            TarefaViewModel tarefaViewModel;
+
+            if (!File.Exists("tarefas.csv"))
             {
-                Console.WriteLine("\nAinda não há tarefas cadastradas no programa.");
+                return null;
             }
 
-            foreach (TarefaViewModel item in listaDeTarefas)
-            {       
-                    Console.WriteLine("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-                    Console.WriteLine($"ID: {item.Id}");
-                    Console.WriteLine($"Tarefa: {item.Nome}");
-                    Console.WriteLine($"Descrição: {item.Descricao}");
-                    Console.WriteLine($"Status: {item.Tipo}");
-                    Console.WriteLine($"Criado em: {item.DataCriacao}");
-                    Console.WriteLine($"ID do usuário que criou a tarefa: {item.IdUsuario}");
-                    Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-                    // return item;
+            string[] tarefas = File.ReadAllLines("tarefas.csv");
+            foreach (var linha in tarefas)
+            {
+                if (linha == null)
+                {
+                    return null;
+                }
+
+                string [] dadosDeCadaTarefa = linha.Split(";");
+
+                tarefaViewModel = new TarefaViewModel();
+                tarefaViewModel.Id = int.Parse(dadosDeCadaTarefa[0]);
+                tarefaViewModel.Nome = dadosDeCadaTarefa[1];
+                tarefaViewModel.Descricao = dadosDeCadaTarefa[2];
+                tarefaViewModel.Tipo = dadosDeCadaTarefa[3];
+                tarefaViewModel.DataCriacao = DateTime.Parse(dadosDeCadaTarefa[4]);
+                tarefaViewModel.IdUsuario = int.Parse(dadosDeCadaTarefa[5]);
+                listaDeTarefas.Add(tarefaViewModel);
             }
-                    // return null;
+            return listaDeTarefas;
         }//Listar()
 
-    
+        /// <summary>Apaga a linha de informações no arquivo</summary>
         public void Remover(int id)
-        {   
-            if (id <= 0 || id >listaDeTarefas.Count)
+        {
+            string[] linhas = File.ReadAllLines("tarefas.csv");
+            for (int i = 0; i < linhas.Length; i++)
             {
-                Console.WriteLine("\nTarefa não encontrada");
-            }  else{
-                listaDeTarefas.RemoveAt(id - 1);
-                Console.WriteLine($"\nA tarefa {id} foi removida com sucesso");
-            }   
+                string[] linha = linhas[i].Split(";");
+                
+                if (id.ToString() == linha[0])
+                {
+                    linhas[i] = "";
+                    break;
+                }
+            }
+            File.WriteAllLines("tarefas.csv",linhas);
             
-        }
+        }//end Remover()
     }
 }
