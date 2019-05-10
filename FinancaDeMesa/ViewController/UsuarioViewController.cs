@@ -13,6 +13,7 @@ namespace FinancaDeMesa.ViewController
         {
             string nome, email, senha, confirmacaoSenha;
             DateTime dataDeNascimento;
+            double saldo;
 
             do
             {
@@ -57,10 +58,12 @@ namespace FinancaDeMesa.ViewController
                 }
             } while (dataDeNascimento > DateTime.Now);
 
+
             UsuarioViewModel usuario = new UsuarioViewModel();
             usuario.Nome = nome;
             usuario.Email = email;
             usuario.Senha = senha;
+            usuario.Saldo = 0;
             usuario.DataDenascimento = dataDeNascimento;
             usuarioRepositorio.Inserir(usuario);
             

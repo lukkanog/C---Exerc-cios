@@ -12,7 +12,7 @@ namespace FinancaDeMesa.Repositorios
             List<UsuarioViewModel> listaDeUsuarios = Listar();
 
             StreamWriter streamwriter = new StreamWriter("usuarios.csv", true);
-            streamwriter.WriteLine($"{usuario.Nome};{usuario.Email};{usuario.Senha};{usuario.DataDenascimento:dd/MM/yyyy}");
+            streamwriter.WriteLine($"{usuario.Nome};{usuario.Email};{usuario.Senha};{usuario.DataDenascimento:dd/MM/yyyy};{usuario.Saldo}");
             streamwriter.Close();
             return usuario;
         }
@@ -38,6 +38,7 @@ namespace FinancaDeMesa.Repositorios
                     usuario.Email = dados[1];
                     usuario.Senha = dados[2];
                     usuario.DataDenascimento = DateTime.Parse(dados[3]);
+                    usuario.Saldo = double.Parse(dados[4]);
                     listaDeUsuarios.Add (usuario);
                 }
             }

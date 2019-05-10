@@ -1,5 +1,6 @@
 using System;
 using FinancaDeMesa.Enums;
+using FinancaDeMesa.ViewModel;
 
 namespace FinancaDeMesa.Utils
 {
@@ -25,5 +26,34 @@ namespace FinancaDeMesa.Utils
             {
                 return System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase (titulo.Replace ("_", " ").ToLower ());
             }
+        public static void MenuLogado(UsuarioViewModel usuario)
+        {
+            var opcoes = Enum.GetNames(typeof (MenuLogadoEnum));
+            int codigo = 1;
+            string barra = "==============================";
+            System.Console.WriteLine("       FINANÇA DE MESA        ");
+            System.Console.WriteLine($"       Seja bem vindo,{usuario.Nome}!        ");
+            System.Console.WriteLine(barra);
+            foreach (var item in opcoes)
+            {
+                System.Console.WriteLine($" {codigo++} {TratarTituloMenu(item)}");
+            }
+            System.Console.WriteLine(barra);
+            
+        }
+        public static void MenuTipoTransacao()
+        {
+            var opcoes = Enum.GetNames(typeof (TipoTransacaoEnum));
+            int codigo = 1;
+            string barra = "==============================";
+            System.Console.WriteLine($"     Qual o tipo da transação?     ");
+            System.Console.WriteLine(barra);
+            foreach (var item in opcoes)
+            {
+                System.Console.WriteLine($" {codigo++} {TratarTituloMenu(item)}");
+            }
+            System.Console.WriteLine(barra);
+            
+        }
     }
 }
