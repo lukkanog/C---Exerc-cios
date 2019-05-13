@@ -1,67 +1,71 @@
 ﻿using System;
 using FinancaDeMesa.Enums;
+using FinancaDeMesa.Repositorios;
 using FinancaDeMesa.Utils;
 using FinancaDeMesa.ViewController;
 using FinancaDeMesa.ViewModel;
+using Spire.Doc;
 
-namespace FinancaDeMesa
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace FinancaDeMesa {
+    class Program {
+        static void Main (string[] args) {
             bool querSair = false;
-            do
-            {
-                MenuUtils.MenuPrincipal();
-                System.Console.Write("Qual a opção desejada?");
-                int codigo = int.Parse(Console.ReadLine());
+            do {
+                Console.Clear();
+                MenuUtils.MenuPrincipal ();
+                System.Console.Write ("Qual a opção desejada?");
+                int codigo = int.Parse (Console.ReadLine ());
 
-                switch (codigo)
-                {
+                switch (codigo) {
                     case 1:
-                        UsuarioViewController.CadastrarUsuario();
-                    break;
+                        UsuarioViewController.CadastrarUsuario ();
+                        MensagemUtils.Continuar();
+                        break;
 
                     case 2:
-                        UsuarioViewModel usuarioLogado = UsuarioViewController.Login();
-                        if (usuarioLogado != null)
-                        {
-                            do
-                            {
-                                MenuUtils.MenuLogado(usuarioLogado);
-                                System.Console.Write("Qual a opção desejada?");
-                                codigo = int.Parse(Console.ReadLine());
+                        UsuarioViewModel usuarioLogado = UsuarioViewController.Login ();
+                        if (usuarioLogado != null) {
+                            do {
+                                Console.Clear();
+                                MenuUtils.MenuLogado (usuarioLogado);
+                                System.Console.Write ("Qual a opção desejada? ");
+                                codigo = int.Parse (Console.ReadLine ());
+                               
 
-                                switch (codigo)
-                                {
+                                switch (codigo) {
                                     case 1:
-                                        TransacaoViewController.CadastrarTransacao(ref usuarioLogado);
-                                    break;
+                                        TransacaoViewController.CadastrarTransacao (ref usuarioLogado);
+                                        MensagemUtils.Continuar();
+                                        break;
                                     case 2:
-                                        TransacaoViewController.ListarTransacoes(usuarioLogado);
-                                    break;
+                                        TransacaoViewController.ListarTransacoes (usuarioLogado);
+                                        MensagemUtils.Continuar();
+                                      
+                                        break;
                                     case 3:
-                                    break;
+                                        UsuarioViewController.Relatorio(usuarioLogado);
+                                        MensagemUtils.Continuar();
+                                        break;
                                     case 4:
-                                    break;
+                                        TransacaoRepositorio.ZiparArquivos ();
+                                        MensagemUtils.Continuar();
+                                        break;
                                     case 5:
-                                        querSair = true;
-                                    break;
+                                        return;
                                     default:
-                                        MensagemUtils.MostrarMensagem("Opção inválida",Cores.ALERTA);
-                                    break;
+                                        MensagemUtils.MostrarMensagem ("Opção inválida", Cores.ALERTA);
+                                        MensagemUtils.Continuar();
+                                        break;
                                 }
                             } while (!querSair);
-
                         }
-                    break;
+                        break;
                     case 3:
                         querSair = true;
-                    break;
+                        break;
                     default:
-                        MensagemUtils.MostrarMensagem("Opção inválida",Cores.ALERTA);
-                    break;
+                        MensagemUtils.MostrarMensagem ("Opção inválida", Cores.ALERTA);
+                        break;
                 }
 
             } while (!querSair);

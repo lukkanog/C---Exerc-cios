@@ -31,5 +31,11 @@ namespace FinancaDeMesa.Utils
             // System.Console.WriteLine("\nAperte ENTER para prosseguir");
             // Console.ReadLine();
         }
+    
+        public static void Continuar()
+        {
+            Console.WriteLine("\nAperte ENTER para continuar");
+            Console.ReadLine();
+        }
     }
 }

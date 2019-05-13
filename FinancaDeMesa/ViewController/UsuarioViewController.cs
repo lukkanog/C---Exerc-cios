@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using FinancaDeMesa.Enums;
 using FinancaDeMesa.Repositorios;
 using FinancaDeMesa.Utils;
@@ -9,11 +10,11 @@ namespace FinancaDeMesa.ViewController
     public class UsuarioViewController
     {
         static UsuarioRepositorio usuarioRepositorio = new UsuarioRepositorio();
+        static TransacaoRepositorio transacaoRepositorio = new TransacaoRepositorio();
         public static void CadastrarUsuario()
         {
             string nome, email, senha, confirmacaoSenha;
             DateTime dataDeNascimento;
-            double saldo;
 
             do
             {
@@ -96,6 +97,14 @@ namespace FinancaDeMesa.ViewController
                 MensagemUtils.MostrarMensagem("Email ou senha inválidos",Cores.ERRO);
                 return null;
             }        
+        }
+
+        public static void Relatorio(UsuarioViewModel usuario)
+        {
+            List<UsuarioViewModel> listaDeUsuarios = UsuarioRepositorio.Listar();
+            List<TransacaoViewModel> listaDeTransacoes = transacaoRepositorio.ListarTransacoes();
+            TransacaoRepositorio.FazerRelatorioUsuarios(listaDeUsuarios);
+            TransacaoRepositorio.FazerRelatorioTransacoes(listaDeTransacoes, usuario);
         }
     }
 }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using FinancaDeMesa.Utils;
 using FinancaDeMesa.ViewModel;
 
 namespace FinancaDeMesa.Repositorios
@@ -11,7 +12,7 @@ namespace FinancaDeMesa.Repositorios
         {
             List<UsuarioViewModel> listaDeUsuarios = Listar();
 
-            StreamWriter streamwriter = new StreamWriter("usuarios.csv", true);
+            StreamWriter streamwriter = new StreamWriter(DatabaseUtils.usuarios, true);
             streamwriter.WriteLine($"{usuario.Nome};{usuario.Email};{usuario.Senha};{usuario.DataDenascimento:dd/MM/yyyy};{usuario.Saldo}");
             streamwriter.Close();
             return usuario;
@@ -21,12 +22,12 @@ namespace FinancaDeMesa.Repositorios
         {
             var listaDeUsuarios = new List<UsuarioViewModel>();
             UsuarioViewModel usuario;
-            if (!File.Exists("usuarios.csv"))
+            if (!File.Exists(DatabaseUtils.usuarios))
             {
                 return null;
             }
 
-            string[] usuarios = File.ReadAllLines("usuarios.csv");
+            string[] usuarios = File.ReadAllLines(DatabaseUtils.usuarios);
 
             foreach (var item in usuarios)
             {
