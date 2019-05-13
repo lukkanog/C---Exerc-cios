@@ -17,9 +17,9 @@ namespace FinancaDeMesa.ViewController
             int escolha;
             DateTime dataTransacao;
             double valor;
-            double saldoNovo;
-            double despesas = 0;
-            double receitas = 0;
+            // double saldoNovo;
+            // double despesas = 0;
+            // double receitas = 0;
             
             do
             {
@@ -58,14 +58,14 @@ namespace FinancaDeMesa.ViewController
             {
                 case 1:
                     tipo = "DESPESA";
-                    despesas += valor;
+                    // despesas += valor;
                 break;
                 case 2:
                     tipo = "RECEITA";
-                    receitas += valor;
+                    // receitas += valor;
                 break;
             }
-            saldoNovo = receitas - despesas;
+            // saldoNovo = receitas - despesas;
 
 
             TransacaoViewModel transacao = new TransacaoViewModel();
@@ -73,10 +73,11 @@ namespace FinancaDeMesa.ViewController
             transacao.Descricao = descricao;
             transacao.DataTransacao = dataTransacao;
             transacao.Valor = valor;
-            usuario.Saldo = saldoNovo;
+            // usuario.Saldo = saldoNovo;
             transacao.Nome = usuario.Nome;
 
             transacaoRepositorio.InserirTransacao(transacao);
+            transacaoRepositorio.MudarSaldo(usuario, transacao);
 
             MensagemUtils.MostrarMensagem("Transação cadastrada com sucesso!", Cores.SUCESSO);
 
@@ -101,7 +102,7 @@ namespace FinancaDeMesa.ViewController
 
                 }
             }
-            System.Console.WriteLine($"Saldo: {usuario.Saldo}");
+            System.Console.WriteLine($"Saldo: R${usuario.Saldo}");
         }
     }
 }

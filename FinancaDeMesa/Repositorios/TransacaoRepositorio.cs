@@ -44,7 +44,38 @@ namespace FinancaDeMesa.Repositorios
                 }
             }
                     return listaDeTransacoes;
-        }
+        }// ListarTransacoes()
 
+        public void MudarSaldo(UsuarioViewModel usuario, TransacaoViewModel transacao)
+        {
+
+            string[] linhas = File.ReadAllLines("usuarios.csv");
+            for (int i = 0; i < linhas.Length; i++)
+            {
+                string[] linha = linhas[i].Split(";");
+                
+                if (linha[0].Equals(usuario.Nome))
+                {
+                    double saldoAntigo = double.Parse(linha[4]);
+                    // double novoSaldo;
+
+                    if (transacao.Tipo.Equals("DESPESA"))
+                    {
+                        usuario.Saldo =  saldoAntigo - transacao.Valor;
+                    } else if (transacao.Tipo.Equals("RECEITA"))
+                    {
+                        usuario.Saldo =  saldoAntigo + transacao.Valor;
+                    }
+
+
+                    linhas[i] = $"{usuario.Nome};{usuario.Email};{usuario.Senha};{usuario.DataDenascimento:dd/MM/yyyy};{usuario.Saldo}";
+                    break;
+                }
+            }
+            File.WriteAllLines("usuarios.csv",linhas);
+            // StreamWriter sw = new StreamWriter("usuarios.csv",false);
+            // sw.WriteLine($"{usuario.Nome};{usuario.Email};{usuario.Senha};{usuario.DataDenascimento:dd/MM/yyyy};{usuario.Saldo}");
+            // sw.Close();
+        }
     }
 }
