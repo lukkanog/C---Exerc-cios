@@ -85,10 +85,10 @@ namespace FinancaDeMesa.Repositorios
         public static void ZiparArquivos()
         {
 
-            string startPath = @".\Database";
-            string zipPath = $@".\{DateTime.Now:dd-MM-yyyy}_banco_de_dados.zip";
+            string pasta = @".\Database";
+            string zipPasta = $@".\{DateTime.Now:dd-MM-yyyy}_banco_de_dados.zip";
 
-            ZipFile.CreateFromDirectory(startPath, zipPath);
+            ZipFile.CreateFromDirectory(pasta, zipPasta);
             
         }
 
@@ -128,7 +128,8 @@ namespace FinancaDeMesa.Repositorios
 
                 p1.AppendText($"\nTipo: {item.Tipo}\nData: {item.DataTransacao:dd/MM/yyyy}\nDescrição: {item.Descricao}\nValor: R${item.Valor}\n");
             }
-                relatorio.SaveToFile($"Relatorio_transicoes_{usuario.Nome}.docx",FileFormat.Docx);    
+            
+            relatorio.SaveToFile($"Relatorio_transicoes_{usuario.Nome}.docx",FileFormat.Docx);    
         }
     }
 }

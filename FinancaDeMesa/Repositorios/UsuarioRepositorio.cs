@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using FinancaDeMesa.Enums;
 using FinancaDeMesa.Utils;
 using FinancaDeMesa.ViewModel;
 
@@ -50,6 +51,10 @@ namespace FinancaDeMesa.Repositorios
         public UsuarioViewModel ProcurarUsuario(string email, string senha)
         {
             List<UsuarioViewModel> listaDeUsuarios = Listar();
+            if (listaDeUsuarios.Count == 0)
+            {
+                return null;
+            }
 
             foreach (var usuario in listaDeUsuarios)
             {

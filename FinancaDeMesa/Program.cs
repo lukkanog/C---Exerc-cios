@@ -51,13 +51,15 @@ namespace FinancaDeMesa {
                                         MensagemUtils.Continuar();
                                         break;
                                     case 5:
-                                        return;
+                                        break;
                                     default:
                                         MensagemUtils.MostrarMensagem ("Opção inválida", Cores.ALERTA);
                                         MensagemUtils.Continuar();
                                         break;
                                 }
-                            } while (!querSair);
+                            } while (codigo != 5);
+                        } else{
+                            MensagemUtils.Continuar();
                         }
                         break;
                     case 3:
@@ -65,8 +67,9 @@ namespace FinancaDeMesa {
                         break;
                     default:
                         MensagemUtils.MostrarMensagem ("Opção inválida", Cores.ALERTA);
+                        MensagemUtils.Continuar();
                         break;
-                }
+                }//switch codigo
 
             } while (!querSair);
         }
