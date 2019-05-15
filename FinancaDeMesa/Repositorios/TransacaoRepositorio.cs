@@ -111,7 +111,7 @@ namespace FinancaDeMesa.Repositorios
 
         }
 
-            public static void FazerRelatorioTransacoes(List<TransacaoViewModel> listaDeTransacoes, UsuarioViewModel usuario)
+        public static void FazerRelatorioTransacoes(List<TransacaoViewModel> listaDeTransacoes, UsuarioViewModel usuario)
         {
             Document relatorio = new Document();
             Paragraph p1 = relatorio.AddSection().AddParagraph();
